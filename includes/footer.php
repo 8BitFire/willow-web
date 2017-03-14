@@ -1,15 +1,12 @@
 <footer>
+  <p>
+    Copyright <?php date_default_timezone_set('UTC'); echo date('Y'); ?> <?php echo $companyName; ?> All rights reserved.
+  </p>
 <ul>
-  <li><a href="/">HOME</a></li>
-  <li><a href="page-1.php">PAGE 1</a></li>
-  <li><a href="page-2.php">PAGE 2</a></li>
-  <li><a href="faq.php">FAQ</a></li>
-  <li><a href="blog.php">BLOG</a></li>
-  <li><a href="contact-us.php">CONTACT US</a></li>
+  <li><a href="privacy.php">Privacy</a></li>
+  <li><a href="terms.php">Terms</a></li>
+  <li><a href="support.php">Support</a></li>
 </ul>
-   <p>
-     <?php date_default_timezone_set('UTC'); echo date('Y'); ?> <?php echo $companyName; ?>
-   </p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -26,7 +23,5 @@
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 </script>
-
-<script src="#">
 </body>
 </html>

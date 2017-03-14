@@ -1,8 +1,8 @@
-<?php $title = 'Page 1'; ?>
+<?php $title = 'Term'; ?>
 <?php $metaTags = 'tag1 tag2'; ?>
-<?php $currentPage = 'Page 1'; ?>
+<?php $currentPage = 'Term'; ?>
 <?php include('includes/head.php'); ?>
 <?php include('includes/nav-bar.php'); ?>
 <body>
-Index Page, Page 1 in nav-bar has an active class
+<p>Privacy Page</p>
 <?php include('includes/footer.php'); ?>

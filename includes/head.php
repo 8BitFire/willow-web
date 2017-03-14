@@ -7,7 +7,7 @@
 <title><?php echo($title); ?></title>
 <meta name="description" content="">
 <?php
-  $companyName = "Company Name";
+  $companyName = "Willow App LLC.";
 ?>
 
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
