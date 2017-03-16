@@ -15,5 +15,6 @@
 
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
