@@ -1,29 +1,36 @@
-<?php $title = 'Willow'; ?>
+<?php $title = 'The Willow App: A Place For Conversation'; ?>
 <?php $metaTags = 'tag1 tag2'; ?>
 <?php $currentPage = 'Home'; ?>
 <?php include('includes/head.php'); ?>
-<?php include('includes/nav-bar.php'); ?>
+  <?php include('includes/nav-bar.php'); ?>
 <body>
 <!-- Hero -->
   <section id="hero">
       <div class="headline">
-        <h1>A Place for Conversation</h1>
-        <h3>lorem ipsum sit amet, consectetur adipisscign quisque id neque pretrium.</h3>
+        <h1>A PLACE FOR CONVERSATION</h1>
+        <h5>lorem ipsum sit amet, consectetur adipisscign quisque id neque pretrium.</h5>
       </div>
       <div class="buttons">
-            <a href="https://itunes.apple.com/us/app/willow-branch-out/id903479248?mt=8" class="btn">DOWNLOAD</a>
-            <a href="#" class="btn">LEARN MORE</a>
+            <a href="https://itunes.apple.com/us/app/willow-branch-out/id903479248?mt=8" class="btn app-store-btn">
+              <img src="images/apple-white.png">
+              <div class="label">
+                <div class="label-availability">Available On</div>
+                <div class="label-store">App Store</div>
+              </div>
+            </a>
+            <a href="#" class="btn learn-more">LEARN MORE</a>
       </div>
   </section>
 <!-- App Features -->
-  <section id="app-features">
-      <div class="left-image">
+  <section class="app-features">
+<div class="app-features-container">
+  <div class="left-image">
         <div class="screenshot">
         </div>
       </div>
       <div class="right-content">
           <div class="features-headline">
-            <h2>LOREM IPSUM DOLOR SIT</h2>
+            <h3>LOREM IPSUM DOLOR SIT</h3>
             <p>Donec sit amet neque quis quam cursus rutrum nec vitaemassa. Praesent porttitor dapibus sem.</p>
           </div>
           <ul class="features">
@@ -45,10 +52,11 @@
             </li>
           </ul>
       </div>
+    </div>
   </section>
 <!-- Featured In -->
   <section id="featured-in">
-    <h2>FEATURED IN</h2>
+    <h2 class="header white">FEATURED IN</h2>
     <div class="logo-container">
       <div class="logo">
         <img src="" alt="Time"/>
@@ -72,9 +80,15 @@
   </section>
 <!-- Callout -->
   <section id="callout">
-    <div class="callout-center">
-      <h3 class="cta">START BRANCHING OUT TODAY</h3>
-      <a href="https://itunes.apple.com/us/app/willow-branch-out/id903479248?mt=8" class="btn cta-btn">DOWNLOAD</a>
+    <div class="callout-container">
+      <h3 class="cta white">START BRANCHING OUT TODAY</h3>
+      <a href="https://itunes.apple.com/us/app/willow-branch-out/id903479248?mt=8" class="btn app-store-btn cta-btn">
+        <img src="images/apple-white.png">
+        <div class="label">
+          <div class="label-availability">Available On</div>
+          <div class="label-store">App Store</div>
+        </div>
+      </a>
     </div>
   </section>
 <?php include('includes/footer.php'); ?>

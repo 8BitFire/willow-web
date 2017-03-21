@@ -1,22 +1,464 @@
-.active {
-  font-size: 20px;
-}
-/* unvisited link */
-a:link {
-    color: red;
+html, body {
+    height: 100%;
+    width: 100%;
 }
 
-/* visited link */
-a:visited {
-    color: green;
+body {
+    margin: 0px;
+    padding: 0;
 }
+
+.wrap {
+    height: auto;
+    margin: 0 auto -120px;
+    /* footer height + space */
+    min-height: 100%;
+    padding: 0 0 120px;
+    /* footer height + space */
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+
+/* Type */
+
+a {
+    color: #8fce1e;
+    text-decoration: none;
+}
+
 
 /* mouse over link */
+
 a:hover {
-    color: hotpink;
+    color: #b7e752;
 }
 
-/* selected link */
-a:active {
-    color: blue;
+p, h1, h2, h3, h4, h5, h6, li {
+    font-family: "sofia-pro";
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 0.2em;
+    margin-bottom: 0.1em;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-top: 0.33em;
+    margin-bottom: 0.33em;
+}
+
+h4 {
+    font-size: 24px;
+    margin-top: 0.33em;
+    margin-bottom: 0.33em;
+}
+
+h5 {
+    font-size: 18px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.primary {
+    color: #8fce1e;
+}
+
+.white {
+  color:#ffffff;
+}
+
+/* Nav Bar */
+
+.navbar {
+    height: 75px;
+    background: #3b3b3b;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.navbar-brand {
+    display: inline-block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    padding: 16px 30px 0 30px;
+    margin: 0 auto;
+}
+
+.navbar-right {
+    float: right;
+    margin: 0;
+    padding: 12px 0 0 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    padding: 4px 20px 7px 20px;
+    color: #ffffff;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: #ffffff;
+}
+
+.download {
+    color: #ffffff;
+    background-color: #8fce1e;
+    border: 2px solid #8fce1e;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.support {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.download:hover {
+    background-color: #606060;
+    color: #3b3b3b;
+    border: 2px solid #606060;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.support:hover {
+    color: #606060;
+    border: 2px solid #606060;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#hero {
+    margin: -50px 0 0 0;
+    background-image: url('../images/willow-hero.png');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 100vh;
+}
+
+.headline {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    -ms-transform: translate(0, -50%);
+    /* IE 9 */
+    -webkit-transform: translate(0, -50%);
+    /* Safari */
+    transform: translate(0, -50%);
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    width: 100%;
+    -ms-transform: translate(0, -50%);
+    /* IE 9 */
+    -webkit-transform: translate(0, -50%);
+    /* Safari */
+    transform: translate(0, -50%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.app-store-btn {
+    color: #fff;
+    padding: 6px 16px;
+    background-color: #8fce1e;
+    border: 1px solid #8fce1e !important;
+    width:140px;
+    height: 36px;
+    transition:0.5s;
+}
+
+.app-store-btn:hover {
+  background-color:rgba(143, 206, 30, 0.5);
+  border: 1px solid rgba(143, 206, 30, 0) !important;
+  transition:0.5s;
+}
+
+.btn {
+    display: block;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    margin:0 10px 0 10px;
+}
+
+.app-store-btn img {
+    height: 24px;
+    float: left;
+    margin: 5px 12px 0 0;
+}
+
+.label {
+    float: right;
+}
+
+.label {
+    position: relative;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label .label-store {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.app-store-btn .label * {
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+}
+
+.label-availability {
+  font-weight:300;
+}
+
+.learn-more {
+  padding: 14px 28px 0 28px;
+  color:#fff;
+  transition:0.5s;
+}
+
+.learn-more:hover {
+ color:#fff;
+ border: 1px solid #fff;
+ opacity:0.5;
+   transition:0.5s;
+}
+
+
+.app-features {
+  background-image: url('../images/willow-city.png');
+  background-color: #ffffff;
+  background-repeat:no-repeat;;
+  background-position: -800px -500px;
+  position: relative;
+  margin:-30px 0 0 0;
+}
+
+.app-features-container {
+  max-width: 1200px;
+  padding: 0 0 0 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-image {
+
+}
+
+.right-content {
+ background-color: #ffffff;
+ min-height: 630px;
+ width:70%;
+}
+
+/* Page content */
+#content {
+    max-width: 1200px;
+    padding: 0 30px 0 30px;
+    margin: 0 auto;
+}
+
+/* Featured In */
+#featured-in {
+  background-image: url('../images/willow-featured.png');
+  background-color: #282727;
+  margin: -30px 0 -9px 0;
+}
+
+.header {
+  text-align: center;
+}
+
+/* Callout */
+#callout {
+  background-color:#282727;
+  margin: 0 0 -20px 0;
+  height:100px;
+}
+
+.callout-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 30px 0 30px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
+.cta {
+  margin:0 20px;
+}
+
+.cta-btn {
+  margin:0 20px;
+}
+
+/* Footer content */
+footer {
+    display: flex;
+    color: #ffffff;
+    background-color: #1c1c1c;
+    height: 100px;
+    /* footer height */
+
+    padding: 36px 0 10px 0;
+    display: block;
+    margin-top: 20px;
+    /* space between content and footer */
+
+    position: relative;
+    width: 100%;
+}
+footer a {
+    color: #ffffff;
+}
+footer a:hover {
+    color: #606060;
+    transition: 0.5s;
+}
+.footer-container {
+    max-width: 1200px;
+    padding: 0 30px 0 30px;
+    margin: 0 auto;
+}
+#footer-left {
+    float: left;
+    display: inline-block;
+}
+#footer-right {
+    float: right;
+    display: inline-block;
+}
+.social-icon {
+    color: #ffffff;
+    margin: 0 0 0 10px;
+    padding: 20px 0 20px 0;
+    transition: 0.5s;
+}
+.social-icon:hover {
+    color: #606060;
+    transition: 0.5s;
+}
+
+/* Desktop View */
+@media only screen and (min-width: 480px) {
+    .rwd-mobile {
+        display: none;
+    }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 480px) {
+    /* Mobile Type */
+
+    .rwd {
+        display: none;
+    }
+    /* Mobile Navbar */
+
+    .navbar {
+        height: 140px;
+    }
+
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-logo {
+        width: 121px;
+        padding: 10px 0;
+    }
+
+    .navbar-right {
+        float: none;
+        margin: 0 auto;
+        width: 380px;
+    }
+
+    .nav li {
+        margin: 0 10px;
+        padding: 10px 40px;
+    }
+    /* Mobile Footer */
+
+    footer {
+        height: 160px;
+        justify-content: center;
+    }
+
+    #footer-left {
+        width: 340px;
+        float: none;
+        text-align: center;
+        display: block;
+    }
+
+    #footer-right {
+        width: 126px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .social-icon {
+        margin: 0 5px 0 5px;
+    }
 }

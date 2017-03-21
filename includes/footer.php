@@ -1,17 +1,17 @@
+<!-- Wrap End -->
+</div>
 <footer role="contentinfo">
-<div id="footer-left">
-  <p>Copyright <?php date_default_timezone_set('UTC'); echo date('Y'); ?> <?php echo $companyName; ?> All rights reserved.</p>
-<ul>
-  <li><a href="privacy.php">Privacy</a></li>
-  <li><a href="terms.php">Terms</a></li>
-  <li><a href="support.php">Support</a></li>
-</ul>
+<div class="footer-container">
+  <div id="footer-left">
+  <p>Copyright <?php date_default_timezone_set('UTC'); echo date('Y'); ?> <?php echo $companyName; ?> <br class="rwd-mobile"/> All rights reserved. <br/>
+  <a href="privacy.php">Privacy</a> | <a href="terms.php">Terms</a> | <a href="support.php">Support</a></p>
 </div>
 <div id=footer-right>
-  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-  <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/thewillowapp"><i class="fa fa-facebook fa-lg social-icon" aria-hidden="true"></i></a>
+  <a href="https://twitter.com/thewillowapp"><i class="fa fa-twitter fa-lg social-icon" aria-hidden="true"></i></a>
+  <a href="https://www.instagram.com/thewillowapp/"><i class="fa fa-instagram fa-lg social-icon" aria-hidden="true"></i></a>
+  <a href="https://www.youtube.com/user/thewillowapp"><i class="fa fa-youtube-play fa-lg social-icon" aria-hidden="true"></i></a>
+</div>
 </div>
 </footer>
 

@@ -10,11 +10,13 @@
   $companyName = "Willow App LLC.";
 ?>
 
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <!-- Place favicon.ico in the root directory -->
+<link rel="mask-icon" href="/willow.svg" color="#990000">
 
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+<script src="https://use.typekit.net/avz3xhz.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>

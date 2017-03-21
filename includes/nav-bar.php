@@ -1,11 +1,12 @@
+<div class="wrap">
 <header class="navbar">
-    <div class="container">
+    <div class="nav-container">
         <div class="navbar-header">
-            <a href="index.php" class="navbar-brand">WILLOW</a>
-        </div>
+            <div class="navbar-brand"><a href="index.php"><img class="navbar-logo" src="images/willow-logo.png" alt="Willow"/></a></div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="download.php">Download</a></li>
-                <li><a href="support.php">Support</a></li>
+                <a href="download.php"><li class="download">Download</li></a>
+                <a href="support.php"><li class="support">Support</li></a>
             </ul>
+        </div>
     </div>
 </header>

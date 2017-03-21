@@ -4,9 +4,10 @@
 <?php include('includes/head.php'); ?>
 <?php include('includes/nav-bar.php'); ?>
 <body>
-<p>Willow Terms</p>
+<section id="content">
+<h2 class="primary">WILLOW TERMS</h2>
 
-<p>Willow App LLC (“Willow”) operates the Willow mobile app and related website www.thewillowapp.com. By using Willow in any way, you accept these Terms and Conditions (“Agreement”).</p>
+<p>Willow App LLC (“Willow”) operates the Willow mobile app and related website <a href="www.thewillowapp.com">www.thewillowapp.com</a>. By using Willow in any way, you accept these Terms and Conditions (“Agreement”).</p>
 
 <strong>Who May Use Willow</strong>
 <ul>
@@ -139,12 +140,12 @@
       <li>A statement by you that the information in your notice is accurate and, UNDER PENALTY OF PERJURY, you are the copyright owner or authorized to act on the copyright owner's behalf; and</li>
       <li>An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest.</li>
     </ol>
-  <li>You may submit this information via email: legal@thewillowapp.com</li>
+  <li>You may submit this information via email: <a href="mailto:legal@thewillowapp.com">legal@thewillowapp.com</a></li>
 </ul>
 
 <strong>Other Complaints</strong>
 <ul>
-  <li>You may send non-copyright complaints via email: support@thewillowapp.com</li>
+  <li>You may send non-copyright complaints via email: <a href="mailto:support@thewillowapp.com">support@thewillowapp.com</a></li>
 </ul>
 <strong>General Provisions</strong>
 <ul>
@@ -156,7 +157,7 @@
 </ul>
 <strong>Modification</strong>
 <ul>
-  <li>This Agreement may be modified at any time and for any reason. A revised Agreement will be posted by Willow on thewillowapp.com/terms and within the Terms of Service section of the Willow app. A revised Agreement will be effective as of the date it is posted. This Agreement constitutes the entire understanding between Willow and you, the user, and supersedes any prior agreements and understandings.</li>
+  <li>This Agreement may be modified at any time and for any reason. A revised Agreement will be posted by Willow on <a href="thewillowapp.com/terms.php">thewillowapp.com/terms</a> and within the Terms of Service section of the Willow app. A revised Agreement will be effective as of the date it is posted. This Agreement constitutes the entire understanding between Willow and you, the user, and supersedes any prior agreements and understandings.</li>
 </ul>
-
+</section>
 <?php include('includes/footer.php'); ?>

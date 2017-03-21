@@ -4,21 +4,23 @@
 <?php include('includes/head.php'); ?>
 <?php include('includes/nav-bar.php'); ?>
 <body>
-<p>Support Page</p>
+<section id="content">
+<h2 class="primary">WILLOW SUPPORT</h2>
 
 <p>For media inquiries, please contact: <br/>
-media@thewillowapp.com</p>
+<a href="mailto:media@thewillowapp.com">media@thewillowapp.com</a></p>
 
 <p>Have comments, suggestions, or stories to share? We would love to hear them. Please contact: <br/>
-suggestions@thewillowapp.com</p>
+<a href="mailto:suggestions@thewillowapp.com">suggestions@thewillowapp.com</a></p>
 
 <p>For business or partnership inquiries, please contact: <br/>
-business@thewillowapp.com</p>
+<a href="mailto:business@thewillowapp.com">business@thewillowapp.com</a></p>
 
 <p>Having technical difficulties? We are here to help. Please contact us at: <br/>
-support@thewillowapp.com</p>
+<a href="mailto:support@thewillowapp.com">support@thewillowapp.com</a></p>
 
 <p>For legal issues related to Willow, please contact: <br/>
-legal@thewillowapp.com</p>
+<a href="mailto:legal@thewillowapp.com">legal@thewillowapp.com</a></p>
+</section>
 
 <?php include('includes/footer.php'); ?>

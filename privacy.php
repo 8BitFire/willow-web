@@ -4,13 +4,14 @@
 <?php include('includes/head.php'); ?>
 <?php include('includes/nav-bar.php'); ?>
 <body>
-<p>Privacy Page</p>
+<section id="content">
+<h2 class="primary">WILLOW PRIVACY</h2>
 
-<p>This Privacy Policy explains the information that Willow App LLC (“Willow”) collects about users of the Willow mobile application and related website www.thewillowapp.com, how we use that information, and with whom we share it. If we make any material changes to our privacy policy, we will post a revised Privacy Policy on <a url="www.thewillowapp.com/privacy">www.thewillowapp.com/privacy</a> and on the privacy policy page within Willow. Changes to the Privacy Policy become effective the day they are posted on <a url="www.thewillowapp.com">www.thewillowapp.com</a> and/or posted within Willow, and that will constitute notification to users. Updates and changes may be made to the privacy policy when new versions of the app are released (i.e. Willow version 1.1, 1.2, etc.) If you have any questions, please contact us by sending an email to <a url="www.support@thewillowapp.com">support@thewillowapp.com</a></p>
+<p>This Privacy Policy explains the information that Willow App LLC (“Willow”) collects about users of the Willow mobile application and related website <a url="www.thewillowapp.com">www.thewillowapp.com</a>, how we use that information, and with whom we share it. If we make any material changes to our privacy policy, we will post a revised Privacy Policy on <a href="www.thewillowapp.com/privacy">www.thewillowapp.com/privacy</a> and on the privacy policy page within Willow. Changes to the Privacy Policy become effective the day they are posted on <a url="www.thewillowapp.com">www.thewillowapp.com</a> and/or posted within Willow, and that will constitute notification to users. Updates and changes may be made to the privacy policy when new versions of the app are released (i.e. Willow version 1.1, 1.2, etc.) If you have any questions, please contact us by sending an email to <a href="www.support@thewillowapp.com">support@thewillowapp.com</a></p>
 
 <strong>Information we collect</strong>
 <ul>
-<li>Information collected automatically: When you use Willow, or visit www.thewillowapp.com, we automatically collect and store information about your computer or mobile device and your activities. This information may include:</li>
+<li>Information collected automatically: When you use Willow, or visit <a href="www.thewillowapp.com">www.thewillowapp.com</a>, we automatically collect and store information about your computer or mobile device and your activities. This information may include:</li>
   <ol>
     <li>Your mobile device's unique ID number;</li>
     <li>Your mobile device's geographic location while the app is actively running;</li>
@@ -58,5 +59,5 @@
 <ul>
   <li>If you live outside the United States, or use Willow while traveling or living outside of the United States, your information will be sent to and stored in the United States, where our servers are located. By using Willow, you agree to the information collection, use, and sharing practices described in this Privacy Policy.</li>
 </ul>
-
+</section>
 <?php include('includes/footer.php'); ?>
