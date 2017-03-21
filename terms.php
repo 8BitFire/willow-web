@@ -4,7 +4,7 @@
 <?php include('includes/head.php'); ?>
 <?php include('includes/nav-bar.php'); ?>
 <body>
-<section id="content">
+<section class="content">
 <h2 class="primary">WILLOW TERMS</h2>
 
 <p>Willow App LLC (“Willow”) operates the Willow mobile app and related website <a href="www.thewillowapp.com">www.thewillowapp.com</a>. By using Willow in any way, you accept these Terms and Conditions (“Agreement”).</p>

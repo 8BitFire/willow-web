@@ -40,6 +40,10 @@ p, h1, h2, h3, h4, h5, h6, li {
     line-height: 1.2;
 }
 
+p {
+  font-size:14px;
+}
+
 h1 {
     font-size: 48px;
     margin-top: 0.2em;
@@ -125,7 +129,7 @@ h5 {
     color: #ffffff;
     background-color: #8fce1e;
     border: 2px solid #8fce1e;
-    border-radius: 20px;
+    border-radius: 100px;
     transition: 0.5s;
 }
 
@@ -298,17 +302,42 @@ h5 {
 }
 
 .left-image {
+  position:relative;
+ width:300px;
+}
 
+.screenshot {
+  position:absolute;
+  margin: 40px 0 0 104px;
 }
 
 .right-content {
  background-color: #ffffff;
  min-height: 630px;
- width:70%;
+ width:100%;
+ display: flex;
+ justify-content:center;
+ align-items:center;
+}
+
+.features-content {
+
+}
+
+.features  {
+  list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.features h3 {
+  margin-top: 1.5em;
+margin-bottom: .1em;
+line-height: 1.1;
 }
 
 /* Page content */
-#content {
+.content {
     max-width: 1200px;
     padding: 0 30px 0 30px;
     margin: 0 auto;
@@ -318,11 +347,32 @@ h5 {
 #featured-in {
   background-image: url('../images/willow-featured.png');
   background-color: #282727;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   margin: -30px 0 -9px 0;
+  padding: 85px 0;
 }
 
 .header {
   text-align: center;
+}
+
+.logo-container {
+  margin: 65px 0 0 0;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width:150px;
+  margin:0 10px 0 10px;
+}
+
+.logo-mtv {
+  width:100px;
 }
 
 /* Callout */
@@ -381,6 +431,7 @@ footer a:hover {
 #footer-left {
     float: left;
     display: inline-block;
+    font-size: 12px;
 }
 #footer-right {
     float: right;

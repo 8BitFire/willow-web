@@ -26,57 +26,62 @@
 <div class="app-features-container">
   <div class="left-image">
         <div class="screenshot">
+          <img src="images/iphone-mockup.png" />
         </div>
       </div>
       <div class="right-content">
-          <div class="features-headline">
+          <div class="features-content">
+            <div class="features-headline">
             <h3>LOREM IPSUM DOLOR SIT</h3>
             <p>Donec sit amet neque quis quam cursus rutrum nec vitaemassa. Praesent porttitor dapibus sem.</p>
           </div>
           <ul class="features">
             <li class="group-messages">
-              <h3>GROUP MESSAGES</h3>
+              <h3 class="primary">GROUP MESSAGES</h3>
               <p>Aenean sit amet orci eu felis porttitor luctus eu nec purus. Duis accumsan quam odio</p>
             </li>
             <li class="one-on-one">
-              <h3>ONE-ON-ONE</h3>
+              <h3 class="primary">ONE-ON-ONE</h3>
               <p>Aenean sit amet orci eu felis porttitor luctus eu nec purus. Duis accumsan quam odio</p>
             </li>
             <li class="discover">
-              <h3>DISCOVER</h3>
+              <h3 class="primary">DISCOVER</h3>
               <p>Aenean sit amet orci eu felis porttitor luctus eu nec purus. Duis accumsan quam odio</p>
             </li>
             <li class="branches">
-              <h3>BRANCHES</h3>
+              <h3 class="primary">BRANCHES</h3>
               <p>Aenean sit amet orci eu felis porttitor luctus eu nec purus. Duis accumsan quam odio</p>
             </li>
           </ul>
+        </div>
       </div>
     </div>
   </section>
 <!-- Featured In -->
   <section id="featured-in">
-    <h2 class="header white">FEATURED IN</h2>
-    <div class="logo-container">
-      <div class="logo">
-        <img src="" alt="Time"/>
+    <h2 class="header white">AS FEATURED IN</h2>
+  <div class="content">
+  <div class="logo-container">
+      <div class="">
+        <img class="logo" src="images/logos/time.png" alt="Time"/>
       </div>
-      <div class="logo">
-        <img src="" alt="Tech Crunch"/>
+      <div class="">
+        <img class="logo" src="images/logos/techcrunch.png" alt="Tech Crunch"/>
       </div>
-      <div class="logo">
-        <img src="" alt="Macworld"/>
+      <div class="">
+        <img class="logo" src="images/logos/macworld.png" alt="Macworld"/>
       </div>
-      <div class="logo">
-        <img src="" alt="MTV"/>
+      <div class="">
+        <img class="logo-mtv" src="images/logos/mtv.png" alt="mtv"/>
       </div>
-      <div class="logo">
-        <img src="" alt="ELLE"/>
+      <div class="">
+        <img class="logo" src="images/logos/elle.png" alt="ELLE"/>
       </div>
-      <div class="logo">
-        <img src="" alt="CBS"/>
+      <div class="">
+        <img class="logo" src="images/logos/cbs.png" alt="CBS"/>
       </div>
     </div>
+  </div>
   </section>
 <!-- Callout -->
   <section id="callout">

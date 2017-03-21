@@ -4,7 +4,7 @@
 <?php include('includes/head.php'); ?>
 <?php include('includes/nav-bar.php'); ?>
 <body>
-<section id="content">
+<section class="content">
 <h2 class="primary">WILLOW SUPPORT</h2>
 
 <p>For media inquiries, please contact: <br/>
