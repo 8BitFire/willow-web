@@ -6,6 +6,8 @@ html, body {
 body {
     margin: 0px;
     padding: 0;
+    font-size: 1em;
+    line-height: 1.2;
 }
 
 .wrap {
@@ -35,41 +37,46 @@ a:hover {
 }
 
 p, h1, h2, h3, h4, h5, h6, li {
-    font-family: "sofia-pro";
     font-weight: 300;
-    line-height: 1.2;
 }
 
 p {
-  font-size:14px;
+  margin-top: .6em;
+  margin-bottom: .3em;
 }
 
-h1 {
-    font-size: 48px;
-    margin-top: 0.2em;
-    margin-bottom: 0.1em;
-}
-
-h2 {
-    font-size: 36px;
-}
-
-h3 {
-    font-size: 28px;
-    margin-top: 0.33em;
-    margin-bottom: 0.33em;
-}
-
-h4 {
-    font-size: 24px;
-    margin-top: 0.33em;
-    margin-bottom: 0.33em;
+h6 {
+    font-size: 0.83333em;
 }
 
 h5 {
-    font-size: 18px;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.44em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h3, h2 {
+    line-height: 1.2;
+    margin-bottom: .1em;
+}
+
+h1 {
+    line-height: 1;
+    margin-bottom: .1em;
 }
 
 .primary {
@@ -77,8 +84,9 @@ h5 {
 }
 
 .white {
-  color:#ffffff;
+    color: #ffffff;
 }
+
 
 /* Nav Bar */
 
@@ -197,15 +205,15 @@ h5 {
     padding: 6px 16px;
     background-color: #8fce1e;
     border: 1px solid #8fce1e !important;
-    width:140px;
+    width: 140px;
     height: 36px;
-    transition:0.5s;
+    transition: 0.5s;
 }
 
 .app-store-btn:hover {
-  background-color:rgba(143, 206, 30, 0.5);
-  border: 1px solid rgba(143, 206, 30, 0) !important;
-  transition:0.5s;
+    background-color: rgba(143, 206, 30, 0.5);
+    border: 1px solid rgba(143, 206, 30, 0) !important;
+    transition: 0.5s;
 }
 
 .btn {
@@ -225,7 +233,7 @@ h5 {
     background-image: none;
     border: 1px solid #ffffff;
     border-radius: 2px;
-    margin:0 10px 0 10px;
+    margin: 0 10px 0 10px;
 }
 
 .app-store-btn img {
@@ -267,248 +275,389 @@ h5 {
 }
 
 .label-availability {
-  font-weight:300;
+    font-weight: 300;
 }
 
 .learn-more {
-  padding: 14px 28px 0 28px;
-  color:#fff;
-  transition:0.5s;
+    padding: 14px 28px 0 28px;
+    color: #fff;
+    transition: 0.5s;
+    width: 108px;
+    height: 32px;
 }
 
 .learn-more:hover {
- color:#fff;
- border: 1px solid #fff;
- opacity:0.5;
-   transition:0.5s;
+    color: #fff;
+    border: 1px solid #fff;
+    opacity: 0.5;
+    transition: 0.5s;
 }
 
-
 .app-features {
-  background-image: url('../images/willow-city.png');
-  background-color: #ffffff;
-  background-repeat:no-repeat;;
-  background-position: -800px -500px;
-  position: relative;
-  margin:-30px 0 0 0;
+    background-image: url('../images/willow-city.png');
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    ;
+    background-position: -800px -500px;
+    position: relative;
+    margin: -30px 0 0 0;
 }
 
 .app-features-container {
-  max-width: 1200px;
-  padding: 0 0 0 30px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-end;
+    max-width: 1200px;
+    padding: 0 0 0 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .left-image {
-  position:relative;
- width:300px;
+    position: relative;
+    min-width: 240px;
 }
 
 .screenshot {
-  position:absolute;
-  margin: 40px 0 0 104px;
+    position: absolute;
+    margin: 40px 0 0 104px;
 }
 
 .right-content {
- background-color: #ffffff;
- min-height: 630px;
- width:100%;
- display: flex;
- justify-content:center;
- align-items:center;
+    background-color: #ffffff;
+    min-height: 630px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:0 30px 0 0;
 }
 
 .features-content {
-
+    margin: 0 0 0 200px;
 }
 
-.features  {
-  list-style-type: none;
-margin: 0;
-padding: 0;
+.features {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .features h3 {
-  margin-top: 1.5em;
-margin-bottom: .1em;
-line-height: 1.1;
+    margin-top: 1.5em;
+    margin-bottom: .1em;
+    line-height: 1.1;
 }
 
+.group-messages {
+  background-image: url('../images/home-icon.png');
+  background-repeat: no-repeat;
+  background-position: 0px 9px;
+  padding: 1px 0 0 0;
+}
+
+.one-on-one {
+  background-image: url('../images/one-on-one-icon.png');
+  background-repeat: no-repeat;
+  background-position: 0px 9px;
+  padding: 1px 0 0 0;
+}
+
+.discover {
+  background-image: url('../images/discover-icon.png');
+  background-repeat: no-repeat;
+  background-position: 0px 9px;
+  padding: 1px 0 0 0;
+}
+
+.branches {
+  background-image: url('../images/branches-icon.png');
+  background-repeat: no-repeat;
+  background-position: 0px 9px;
+  padding: 1px 0 0 0;
+}
+
+
 /* Page content */
+
 .content {
     max-width: 1200px;
     padding: 0 30px 0 30px;
     margin: 0 auto;
 }
 
+.content h2 {
+  margin-bottom: .8em;
+}
 /* Featured In */
+
 #featured-in {
-  background-image: url('../images/willow-featured.png');
-  background-color: #282727;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin: -30px 0 -9px 0;
-  padding: 85px 0;
+    background-image: url('../images/willow-featured.png');
+    background-color: #282727;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: -30px 0 -9px 0;
+    padding: 85px 0;
 }
 
 .header {
-  text-align: center;
+    text-align: center;
 }
 
 .logo-container {
-  margin: 65px 0 0 0;
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  flex-wrap: wrap;
+    margin: 65px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
-  width:150px;
-  margin:0 10px 0 10px;
+    width: 150px;
+    margin: 0 10px 0 10px;
 }
 
 .logo-mtv {
-  width:100px;
+    width: 100px;
 }
 
+
 /* Callout */
+
 #callout {
-  background-color:#282727;
-  margin: 0 0 -20px 0;
-  height:100px;
+    background-color: #282727;
+    margin: 0 0 -20px 0;
+    min-height: 100px;
 }
 
 .callout-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 25px 30px 0 30px;
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 30px 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .cta {
-  margin:0 20px;
+    margin: 0 20px;
 }
 
 .cta-btn {
-  margin:0 20px;
+    margin: 0 20px;
 }
 
+
 /* Footer content */
+
 footer {
     display: flex;
     color: #ffffff;
     background-color: #1c1c1c;
     height: 100px;
     /* footer height */
-
     padding: 36px 0 10px 0;
     display: block;
     margin-top: 20px;
     /* space between content and footer */
-
     position: relative;
     width: 100%;
 }
+
 footer a {
     color: #ffffff;
 }
+
 footer a:hover {
     color: #606060;
     transition: 0.5s;
 }
+
 .footer-container {
     max-width: 1200px;
     padding: 0 30px 0 30px;
     margin: 0 auto;
 }
+
 #footer-left {
     float: left;
     display: inline-block;
     font-size: 12px;
 }
+
 #footer-right {
     float: right;
     display: inline-block;
 }
+
 .social-icon {
     color: #ffffff;
     margin: 0 0 0 10px;
     padding: 20px 0 20px 0;
     transition: 0.5s;
 }
+
 .social-icon:hover {
     color: #606060;
     transition: 0.5s;
 }
 
+
 /* Desktop View */
+
 @media only screen and (min-width: 480px) {
     .rwd-mobile {
         display: none;
     }
 }
 
-/* Mobile View */
-@media only screen and (max-width: 480px) {
-    /* Mobile Type */
+@media (min-width: 1360px) {
+    /* Responsive Type */
+    html {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 3.58318em;
+    }
+}
 
+@media (min-width: 1024px) {
+    /* Responsive Type */
+    h2 {
+        font-size: 2.48832em;
+    }
+    h1 {
+        font-size: 2.98598em;
+    }
+}
+
+@media (max-width: 800px) {
+    /* App Features */
+    .app-features {
+        background-image: none;
+        padding: 25px 0 25px 0;
+    }
+    .app-features-container {
+        padding: 0 30px 0 30px;
+    }
+    .left-image {
+        display: none;
+    }
+    .features-content {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Responsive Type */
+    h3 {
+        font-size: 1.4em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    h1 {
+        font-size: 2.8em;
+    }
+}
+
+
+/* Mobile View */
+
+@media only screen and (max-width: 480px) {
+    /* Responsive Type */
+    html {
+        font-size: 19.2px;
+    }
+    /* Mobile Type */
     .rwd {
         display: none;
     }
     /* Mobile Navbar */
-
+    .navbar-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .navbar {
         height: 140px;
     }
-
     .navbar-brand {
         display: flex;
         justify-content: center;
     }
-
     .navbar-logo {
         width: 121px;
         padding: 10px 0;
     }
-
     .navbar-right {
         float: none;
-        margin: 0 auto;
-        width: 380px;
+        width: 253px;
     }
-
     .nav li {
-        margin: 0 10px;
-        padding: 10px 40px;
+        margin: 0;
+        padding: 2px 20px 5px 20px;
+    }
+    /* Mobile Hero */
+    #hero {
+        margin: -50px 0 0 0;
+        background-image: url('../images/willow-hero.png');
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+        min-height: 560px;
+        padding: 0 30px 0 30px;
+    }
+    .headline {
+        position: relative;
+        top: 25%;
+        text-align: center;
+        width: 100%;
+        color: #fff;
+    }
+    .buttons {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .btn {
+        margin: 10px 20px 10px 20px;
+    }
+    /* Featured In */
+    .logo {
+        width: 200px;
+        margin: 20px 0 20px 0
+    }
+    .logo-mtv {
+        width: 200px;
+        margin: 20px 0 20px 0
+    }
+    /* Callout */
+    #callout {
+        padding: 25px 0 25px 0;
+    }
+    .cta {
+        text-align: center;
+        margin: 0 0 10px 0;
     }
     /* Mobile Footer */
-
     footer {
         height: 160px;
         justify-content: center;
     }
-
     #footer-left {
-        width: 340px;
         float: none;
         text-align: center;
         display: block;
     }
-
     #footer-right {
-        width: 126px;
+        width: 144px;
         float: none;
         display: block;
         margin: 0 auto;
     }
-
     .social-icon {
         margin: 0 5px 0 5px;
     }

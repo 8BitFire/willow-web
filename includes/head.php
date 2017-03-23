@@ -11,7 +11,8 @@
 ?>
 
 <!-- Place favicon.ico in the root directory -->
-<link rel="mask-icon" href="/willow.svg" color="#990000">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">

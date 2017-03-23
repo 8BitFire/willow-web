@@ -1,5 +1,4 @@
 <?php $title = 'Terms'; ?>
-<?php $metaTags = 'tag1 tag2'; ?>
 <?php $currentPage = 'Terms'; ?>
 <?php include('includes/head.php'); ?>
 <?php include('includes/nav-bar.php'); ?>
